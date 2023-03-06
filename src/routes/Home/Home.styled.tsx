@@ -1,6 +1,8 @@
 import styled from "@emotion/styled";
 
 const StyledWrapper = styled.div`
+  display: flex;
+
   .section {
     font-size: 60px;
     padding: 15px;

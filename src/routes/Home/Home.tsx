@@ -14,11 +14,10 @@ const Home: React.FC<Props> = () => {
         </div>
         <div className="mini">떨어진 가족을 찾아드립니다.</div>
         <div className="wrap-button">
-          <button className="go_button">
+          {/* <button className="go_button">
             <div className="img_playButton"></div>
             찾으러가기
-          </button>
-          /
+          </button> */}
         </div>
       </div>
       <div className="img">
