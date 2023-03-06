@@ -5,12 +5,12 @@ const StyledWrapper = styled.div`
 
   .section {
     font-size: 60px;
-    padding: 15px;
+    margin: 100px 0 0 100px;
   }
   .mini {
     font-size: 24px;
     color: #9e9da2;
-    padding: 30px 0 30px 30px;
+    margin: 100px 0 0 100px;
   }
   .go_button {
     width: 260px;
@@ -22,12 +22,10 @@ const StyledWrapper = styled.div`
     color: #fff;
   }
 
-  img {
+  .img {
     width: 713px;
     height: 744px;
-  }
-  .flex {
-    display: flex;
+    margin: 10px 0 0 500px;
   }
   .wrap-button {
     padding: 30px 0 0 30px;
