@@ -27,7 +27,7 @@ const StyledWrapper = styled.div`
   .flex {
     display: flex;
   }
-  .wrap_button {
+  .wrap-button {
     padding: 30px 0 0 30px;
   }
   .img_playButton {
