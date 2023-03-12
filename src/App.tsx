@@ -6,6 +6,7 @@ import { QueryClientProvider } from 'react-query'
 import { routeObjects } from '@routes/index'
 import queryClient from '@libs/queryClient'
 import { globalStyles } from '@styles/global'
+import { Layout } from './components/Layout'
 
 type Props = {}
 
@@ -15,7 +16,9 @@ const App: React.FC<Props> = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <Global styles={globalStyles} />
-      <RouterProvider router={router} />
+      <Layout>
+        <RouterProvider router={router} />
+      </Layout>
     </QueryClientProvider>
   )
 }
