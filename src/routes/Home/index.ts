@@ -1,1 +1,2 @@
-export { default as Home } from './Home'
+import * as React from "react";
+export { default as Home } from "./Home";
